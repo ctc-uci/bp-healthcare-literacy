@@ -11,7 +11,7 @@ function App() {
       <header>
         <h1>Healthcare Literacy Resources</h1>
       </header>
-      <button onClick={sayHello} type="button">
+      <button style={{ color: 'yellow' }} onClick={sayHello} type="button">
         UCI
       </button>
       <button onClick={sayHello} type="button">
