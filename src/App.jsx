@@ -9,17 +9,13 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Healthcare Literacy Resources</h1>
+        <h1>Zot Central Health Care</h1>
       </header>
       <button style={{ color: 'yellow' }} onClick={sayHello} type="button">
         UCI
       </button>
-      <button onClick={sayHello} type="button">
-        Options and Coverage
-      </button>
-      <button onClick={sayHello} type="button">
-        Signing Up for Health Insurance
-      </button>
+      <button type="button">Options and Coverage</button>
+      <button type="button">Signing Up for Health Insurance</button>
     </div>
   );
 }

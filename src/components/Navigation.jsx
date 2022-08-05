@@ -7,7 +7,7 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            BP Healthcare Literacy
+            Zot Central Health Care
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
@@ -25,11 +25,6 @@ function Navigation() {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/UCSHIP">
                   UCSHIP
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/SignUp">
-                  Sign Up
                 </NavLink>
               </li>
             </ul>
